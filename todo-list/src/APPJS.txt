@@ -1,0 +1,5 @@
+The first line import React, { useState } from 'react'; imports the React and useState modules from the react package. The useState hook is a built-in function provided by React that allows us to manage state in our components.
+
+The function App() { ... } defines a new React component called App. The component is a function that returns a React element, which is what we see rendered on the screen.
+
+The useState hook is used to create two state variables: tasks and inputValue. tasks is an array that will hold our to-do list items, and inputValue is a string that will hold the current value of the input field.
